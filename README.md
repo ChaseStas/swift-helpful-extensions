@@ -2,27 +2,23 @@
 This repository contains helpful extension for UIKit/SwiftUI projects
 
 ### UIKit
-Can easily create gradient color
-**Example of usage**:
+**Can easily create gradient color**:
 ```swfit
 currentView.backgroundColor = Gradient.create(with: [.white, .black], bounds: currentView.bounds)
 ```
 
-Can easily create UIColor by RGB values and by Hex value
-**Example of usage**:
+**Can easily create UIColor by RGB values and by Hex value**:
 ```swfit
 currentView.backgroundColor = UIColor(red: 148, green: 16, blue: 88)
 anotherView.backgroundColor = UIColor(hex: "f3d3da")
 ```
 
-Can easily add underLine to your label
-**Example of usage**:
+**Can easily add underLine to your label**:
 ```swfit
 currentLabel.underline()
 ```
 
-Can easily add (remove) child VC to (from) parent VC
-**Example of usage**:
+**Can easily add (remove) child VC to (from) parent VC**:
 ```swfit
 class FirstViewController: UIViewController {
 
@@ -41,8 +37,7 @@ class SecondViewController: UIViewController {
 }
 ```
 
-Can present VC in safe mode or with some delay
-**Example of usage**:
+**Can present VC in safe mode or with some delay**:
 ```swfit
 class FirstViewController: UIViewController {
 
@@ -65,8 +60,7 @@ class ThirdViewController: UIViewController {
 }
 ```
 
-Can take element of array in safe mode
-**Example of usage**:
+**Can take element of array in safe mode**
 ```swfit
 class ViewController: UIViewController {
 
