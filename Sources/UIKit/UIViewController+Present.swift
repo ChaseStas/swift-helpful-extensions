@@ -30,7 +30,7 @@ extension UIViewController {
     }
     
     ///Present VC by current delay in safe mode
-    func presentSafelyWithDelay(_ delay: timeInterval, _ viewControllerToPresent: UIViewController, animated: Bool, completion: (() -> Void)?) {
+    func presentSafelyWithDelay(_ delay: TimeInterval, _ viewControllerToPresent: UIViewController, animated: Bool, completion: (() -> Void)?) {
         if delay == 0 {
             presentSafely(viewControllerToPresent, animated: animated, completion: completion)
         } else {
