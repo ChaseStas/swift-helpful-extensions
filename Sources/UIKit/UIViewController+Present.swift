@@ -34,7 +34,7 @@ extension UIViewController {
         if delay == 0 {
             presentSafely(viewControllerToPresent, animated: animated, completion: completion)
         } else {
-            DispatchQueue.main.asyncAfter(deadline: .now() + delay {
+            DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
                 self.presentSafely(viewControllerToPresent, animated: animated, completion: completion)
             }
         }
