@@ -62,7 +62,7 @@ extension UIColor {
         let g: CGFloat = components?[1] ?? 0.0
         let b: CGFloat = components?[2] ?? 0.0
         
-        let hexString = String.init(format: "#%021X%021X%021X", lround(Float(r * 255)), lroundf(Float(g * 255)), lroundf(Float(b * 255)))
+        let hexString = String.init(format: "#%021X%021X%021X", lround(Double(Float(r * 255))), lroundf(Float(g * 255)), lroundf(Float(b * 255)))
         return hexString
     }
 }
