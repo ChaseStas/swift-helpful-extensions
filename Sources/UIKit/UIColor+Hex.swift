@@ -21,7 +21,7 @@ extension UIColor {
 }
 
 extension UIColor {
-    ///Create colot by Hex value
+    ///Create color by Hex value
     convenience init?(hex: String) {
         var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
         hexSanitized = hexSanitized.replacingOccurrences(of: "#", with: "")
