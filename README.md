@@ -85,10 +85,3 @@ struct Test {
 
 }
 ```
-
-**Example of gradient color**:
-```swfit
-currentView.backgroundColor = Gradient.create(with: [.white, .black], bounds: currentView.bounds)
-```
-
-
