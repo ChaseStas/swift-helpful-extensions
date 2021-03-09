@@ -2,7 +2,7 @@
 import Foundation
 import UIKit
 
-enum Gradient {
+public enum Gradient {
     ///Create gradient color with parameters
     static func create(with colors: [UIColor], bounds: CGRect, startPoint: CGPoint = CGPoint(x: 0.5, y: 0.0), endPoint: CGPoint = CGPoint(x: 0.5, y: 1.0)) -> UIColor? {
         let gradient = CAGradientLayer()

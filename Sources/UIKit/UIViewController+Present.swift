@@ -2,7 +2,7 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     ///Present VC by current delay
     func presentWithDelay(_ delay: TimeInterval, _ viewControllerToPresent: UIViewController, animated: Bool, completion: (() -> Void)?) {
         if delay == 0 {

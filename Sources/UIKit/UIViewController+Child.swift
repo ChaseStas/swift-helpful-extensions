@@ -2,7 +2,7 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     ///Add child VC to parent VC
     func add(child: UIViewController, frame: CGRect? = nil, to containerView: UIView? = nil) {
         addChild(child)

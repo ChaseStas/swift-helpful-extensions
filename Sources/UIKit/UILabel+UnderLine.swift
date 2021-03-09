@@ -2,7 +2,7 @@
 import Foundation
 import UIKit
 
-extension UILabel {
+public extension UILabel {
     ///Add underLine to the current label
     func underline() {
         if let textString = self.text {

@@ -2,7 +2,7 @@
 import UIKit
 import Foundation
 
-extension UIColor {
+public extension UIColor {
     ///Create color by RGB values
     convenience init(red: Int, green: Int, blue: Int) {
         assert(red >= 0 && red <= 255, "Invalid red component")
@@ -20,7 +20,7 @@ extension UIColor {
     }
 }
 
-extension UIColor {
+public extension UIColor {
     ///Create color by Hex value
     convenience init?(hex: String) {
         var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
